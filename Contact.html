@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<Nav>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+</Nav>
+   <section class="Contact">
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form id="Contactform"></form>
+        <label for="fname">First Name</label>
+        <input type="text" id="Fname" name="name"required>
+        <label for="Mname">Middle Name</label>
+        <input type="text" id="Mname" name="name"required>
+        <label for="fname">Last Name</label>
+        <input type="text" id="name" name="name"required>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email"required>
+        <label for="message">YourMessage</label>
+        <textarea id="message" name="message"required></textarea>
+        <button type="submit">Submit</button>
+    </div>
+   </section>
+   <footer>
+    <p>&copy;2024 doegarjrfrancism27. All Right Reserved</p>
+   </footer>
+   <div id="confirmModal" class="modal">
+    <div class="modal-content"></div>
+    <span class="close-btn" id="closeconfirmModal">&times;</span>
+    <h2>Are you sure you want to submit this form?</h2>
+    <button id="cancelbtn">No</button>
+   </div>
+   <script src="Script.js"></script>
+</body>
+</html>
